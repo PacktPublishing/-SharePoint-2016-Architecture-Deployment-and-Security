@@ -1,0 +1,4 @@
+Managed Accounts
+
+$cred = Get-Credential -UserName "Domain\ServiceAccount" -Message "Managed Account"
+New-SPManagedAccount -Credentialed $cred
